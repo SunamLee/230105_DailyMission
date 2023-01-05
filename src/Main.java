@@ -8,9 +8,20 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
+        // 시간 측정
         Instant start = Instant.now();
-        Random r = new Random();
 
+        /**
+         *
+         * 1.빈 Integer type의 배열 생성
+         * 2.ArrayList로 변환
+         * 3.랜덤한 수를 ArrayList에 Input
+         * 4.For 반복문으로 ArrayList 내부 인자 중 1부터 +1씩 존재하는지 검사 진행
+         * 4-1. 없으면 해당 값이 정답이 됨
+         * 4-2. 있으면 4번으로 이동
+         */
+
+        Random r = new Random();
         Integer[] arr = {};
         List<Integer> arrList = new ArrayList<>(Arrays.asList(arr));
 
