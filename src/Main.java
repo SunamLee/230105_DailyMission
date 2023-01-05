@@ -43,6 +43,17 @@ public class Main {
             }
         }
 
+        /**
+         * 실패... guhyun not yet..
+         * 
+         * 1.선택 정렬로 해당 배열의 값을 정렬
+         * 1-1. 정렬 중 음수인 경우 제거
+         * 1-2. 양수인 경우 List에 ADD
+         * 2.ArrayList의 0번째 인덱스부터 순차로 1부터 +1씩 존재하는지 검사
+         * 2-1. 없으면 해당 값이 정답이 됨
+         * 2-2. 있으면 2번으로 넘어감
+         */
+
 //        arr = {1000, 1, -3000, 9, 0, -10, -1, 2, 4, 10000, -12345};
 //        List<Integer> arrList = new ArrayList<>(Arrays.asList(arr));
 
