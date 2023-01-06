@@ -10,6 +10,7 @@ public class Main {
 
         // 시간 측정
         Instant start = Instant.now();
+        Random r = new Random();
 
         /**
          *
@@ -20,12 +21,12 @@ public class Main {
          * 4-1. 없으면 해당 값이 정답이 됨
          * 4-2. 있으면 4번으로 이동
          */
-
-        Random r = new Random();
+        // 예시 배열
+        // arr = {1000, 1, -3000, 9, 0, -10, -1, 2, 4, 10000, -12345};
         Integer[] arr = {};
         List<Integer> arrList = new ArrayList<>(Arrays.asList(arr));
 
-        for(int i = 0; i < 11; i++) {
+        for(int i = 0; i < 10; i++) {
             int rnum = r.nextInt(20) - 10;
             arrList.add(rnum);
         }
@@ -45,7 +46,7 @@ public class Main {
 
         /**
          * 실패... guhyun not yet..
-         * 
+         *
          * 1.선택 정렬로 해당 배열의 값을 정렬
          * 1-1. 정렬 중 음수인 경우 제거
          * 1-2. 양수인 경우 List에 ADD
