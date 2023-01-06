@@ -31,12 +31,6 @@ public class Main {
             arrList.add(rnum);
         }
 
-        for (int i : arrList) {
-            System.out.print(i + " ");
-        }
-
-        System.out.println();
-
         for(int i = 1; i < arrList.size() + 1; i++) {
             if(!arrList.contains(i)) {
                 System.out.println("정답 : " + i);
